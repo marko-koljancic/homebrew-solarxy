@@ -17,22 +17,22 @@ class SolarxyCli < Formula
   on_macos do
     on_arm do
       url "https://github.com/marko-koljancic/solarxy/releases/download/v#{version}/solarxy-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "REPLACE_WITH_AARCH64_DARWIN_SHA256"
+      sha256 "1b23d44896048eb689eff69c4cc33e195bd236c0e9b959477e06d9718c712e2b"
     end
     on_intel do
       url "https://github.com/marko-koljancic/solarxy/releases/download/v#{version}/solarxy-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "REPLACE_WITH_X86_64_DARWIN_SHA256"
+      sha256 "2f849387404597dad565f20167797fa33ce11942baccec30054bb11c040137f5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/marko-koljancic/solarxy/releases/download/v#{version}/solarxy-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "REPLACE_WITH_X86_64_LINUX_SHA256"
+      sha256 "edc3d069cf9ec090cc19ed37686cbee5b55ac6f1da483e54c55749a8c3860325"
     end
     on_arm do
       url "https://github.com/marko-koljancic/solarxy/releases/download/v#{version}/solarxy-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "REPLACE_WITH_AARCH64_LINUX_SHA256"
+      sha256 "421a7f94a089b13ca05975d42ababd2736d61e5810295d0daff70c393b3af09b"
     end
   end
 
