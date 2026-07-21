@@ -11,28 +11,28 @@
 class SolarxyCli < Formula
   desc "Solarxy CLI: terminal companion to the Solarxy 3D model viewer"
   homepage "https://github.com/marko-koljancic/solarxy"
-  version "0.7.1"
+  version "0.7.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/marko-koljancic/solarxy/releases/download/v#{version}/solarxy-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "8fe4824ae6d7c210f7e3d27fa509d48ae66d4f0dace978360d8bd70e45ed58be"
+      sha256 "3c67b592a347f8373907907a5336fab257e28f3cb15f055f517d388eef0cd32c"
     end
     on_intel do
       url "https://github.com/marko-koljancic/solarxy/releases/download/v#{version}/solarxy-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "555229d00405ae29e22caceeec0296f2dd0b2d837b35009305613011f2ee86d7"
+      sha256 "3c56883943c425ce43139affd2e123e033038418aaa5490f66a0b9c0f0b66d37"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/marko-koljancic/solarxy/releases/download/v#{version}/solarxy-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "cfa9c76f2087f19f739b601e3edc9b77ce200b6dd164ad5532afc60da1e98d6d"
+      sha256 "966e61d610dd7a289001d2442a8a7385f914a9ff913a57a7ded306f7641f4436"
     end
     on_arm do
       url "https://github.com/marko-koljancic/solarxy/releases/download/v#{version}/solarxy-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "5f32b1570ed541a77a53b1b1e90dd7d0cce226ba8847d81cc6b84b52a289e1af"
+      sha256 "297bd4dd6478c2e91ec54218599b68d9d778b9e2a0712ac769378641d8186a79"
     end
   end
 
