@@ -24,9 +24,9 @@
 # That is how a 0.6.0 -> 0.7.0 upgrade left a machine with no Solarxy at all.
 
 cask "solarxy" do
-  version "0.7.2"
-  sha256 arm:   "710b836b0e40a3f49264b5b30b1f65564e4e80149d6dd0ec198457aab8b64112",
-         intel: "ffb0f4b8013eb9c5408c4a2d2a5f8698f26b4d5199a7b2adbb88229b1b821b2a"
+  version "0.8.0"
+  sha256 arm:   "91ede809f3c35fcbb2fe3124a5d5067c96f6bb24366fb5069d027b3addb81159",
+         intel: "2f1a7530c5d6524de6bd200b42cd67db14d7bad2c140b9a144702cec6bffd4fc"
 
   on_arm do
     url "https://github.com/marko-koljancic/solarxy/releases/download/v#{version}/Solarxy-#{version}-aarch64.dmg"
